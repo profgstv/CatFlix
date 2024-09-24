@@ -51,13 +51,12 @@ p {
 }
 .plus{
     text-align: center;
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
     border-bottom: solid 1px pink;
 }
 .miniaturas{
     display: block flex;
+    overflow-x: auto;
+    gap: 10px;
     padding-bottom: 1%;
     justify-content: center;
 }
