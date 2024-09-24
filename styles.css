@@ -43,12 +43,15 @@ p {
     display: none;
 }
 .plus{
+    text-align: center;
+    border-bottom: solid 1px white;
+}
+.miniaturas{
     display: block flex;
     padding-left: 5%;
     padding-bottom: 80px;
     padding-top: 55px;
-    justify-content: flex-start;
-    border-bottom: solid 1px pink;
+    justify-content: center;
 }
 footer {
     text-align: center;
