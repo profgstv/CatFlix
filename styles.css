@@ -51,6 +51,9 @@ p {
 }
 .plus{
     text-align: center;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
     border-bottom: solid 1px pink;
 }
 .miniaturas{
