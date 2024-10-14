@@ -12,7 +12,7 @@ header {
     font-family: Oswald;
 }
 img {
-    height: 100px;
+    height: 150px;
 }
 h1 {
     margin-top: 15px;
@@ -50,21 +50,37 @@ p {
     display: none;
 }
 .plus{
-    text-align: center;
     border-bottom: solid 1px pink;
+    text-align: center;
 }
 .miniaturas{
     display: block flex;
+    align-items: center;
     overflow-x: auto;
-    padding-bottom: 1%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20 1% 20;
 }
-footer {
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 25px;
+footer{
     background: purple;
     color: pink;
     text-align: center;
+    padding: 2em 0;
+}
+.footer__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.lista__link a{
+    text-decoration: none;
+    color: white;
+    margin: 2em 3em;
+}
+.lista__link a:hover{
+    color: pink;
+}
+.lista__link a:active{
+    color: white;
+}
+.logo{
+    max-height: 47px;
 }
